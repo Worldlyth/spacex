@@ -2,7 +2,7 @@
   "name": "spacex",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Worldlyth.github.io/spacex",
+  "homepage": "https://worldlyth.github.io/spacex",
   "type": "module",
   "scripts": {
     "dev": "vite",
