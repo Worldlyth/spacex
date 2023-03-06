@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src:
+		local('Museo Sans Cyrl light'),
+		local('Museo-Sans-Cyrl-light'),
+		url('museosanscyrl-100.woff2') format('woff2'),
+		url('museosanscyrl-100.woff') format('woff'),
+		url('museosanscyrl-100.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src:
+		local('Museo Sans Cyrl regular'),
+		local('Museo-Sans-Cyrl-regular'),
+		url('museosanscyrl-300.woff2') format('woff2'),
+		url('museosanscyrl-300.woff') format('woff'),
+		url('museosanscyrl-300.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	src:
+		local('Museo Sans Cyrl bold'),
+		local('Museo-Sans-Cyrl-bold'),
+		url('museosanscyrl-700.woff2') format('woff2'),
+		url('museosanscyrl-700.woff') format('woff'),
+		url('museosanscyrl-700.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}

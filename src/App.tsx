@@ -1,33 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
+//components
+import Page from './components/Page'
+import Benefits from './components/benefits'
+import Button from './components/Button'
 
+//assets
+import background from '/src/assets/images/background.png'
+import travel from '/src/assets/images/travel.png'
+import line from '/src/assets/images/line.png'
+import button from '/src/assets/images/button.png'
+
+const App = () => {
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    <Page background={background}>
+      <section className={'flex justify-center'}>
+        <img src={travel} className={'absolute top-53.7 left-94.6'} />
+        <img src={button} className={'absolute top-91 left-90'} />
+        <Button className={'absolute top-97.5 left-100'} />
+        <img src={line} className={'absolute top-100 left-139.2'} />
+
+        <Benefits />
+      </section>
+    </Page>
   )
 }
 
